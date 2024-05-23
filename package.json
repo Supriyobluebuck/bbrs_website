@@ -1,8 +1,8 @@
 {
-  "name": "meghna",
-  "version": "2.0.0",
-  "description": "meghna free blog template",
-  "author": "Themefisher",
+  "name": "bluebuck",
+  "version": "1.0.0",
+  "description": "bluebuck webdev",
+  "author": "bluebuck",
   "license": "MIT",
   "scripts": {
     "dev": "gulp",
