@@ -635,11 +635,13 @@ a:hover {
 .navigation {
   background-color: #1d2024;
   width: 100%;
-  z-index: 99;
+  z-index: 1000; /* Increased z-index to ensure it's above other elements */
   margin-bottom: 0;
   padding: 10px 0;
-  position: sticky;
+  position: fixed; /* Changed from sticky to fixed */
   top: 0;
+  left: 0;
+  right: 0;
 }
 .navigation .logo {
   padding: 0;
@@ -693,6 +695,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  padding-top: 60px; /* Add padding to account for fixed navigation */
 }
 .hero-area .block {
   text-align: center;
