@@ -72,75 +72,59 @@
 
 <!-- Welcome Slider
 ==================================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating True Wealth Powered By Technology</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
 
-<section class="hero-area overlay">
-    <video autoplay muted loop class="hero-video">
-        <source src="images/banner/hero-video.mp4" type="video/mp4">
-    </video>
-    
-    <!-- Added navigation here, above the main content -->
-    <nav class="navbar navbar-expand-lg navbar-dark px-0 hero-nav">
-        <div class="container">
-            <div class="collapse navbar-collapse justify-content-end" id="navbar01">
-                <ul class="navbar-nav navigation-menu">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact-us">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#careers">Careers</a>
-                    </li>
-                </ul>
+    <section class="hero-area overlay">
+        <video autoplay muted loop id="video-background">
+            <source src="images/banner/hero-video.mp4" type="video/mp4">
+        </video>
+        
+        <nav>
+            <div class="logo-container">
+                <div class="logo">TW</div>
+                <div class="brand-line">True Wealth</div>
             </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact-us">Contact</a></li>
+                <li><a href="#careers">Careers</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <h1 class="animated-text">Creating True Wealth Powered by Technology</h1>
+            <h2 class="animated-text">We Make Machines That Make Money.</h2>
+            <a href="#contact-us" class="connect-button">Connect With Us</a>
         </div>
-    </nav>
+    </section>
 
-    <div class="block">
-        <h1>Creating True Wealth Powered by Technology</h1>
-        <h2>We Make Machines That Make Money.</h2>
-    </div>
-</section>
-
-<!-- 
-Sticky Navigation
-==================================== -->
-<header id="navigation" class="navigation">
-    <div class="container">
-        <div class="navbar-header w-100">
-            <nav class="navbar navbar-expand-lg navbar-dark px-0">
-                <!-- logo -->
-                <a class="navbar-brand logo" href="index.html">
-                    <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg"
-                        xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                            <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
-                                <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
-                                <path d="M6,7 L33.5,34.5" id="Line-2" stroke-linecap="square"></path>
-                                <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
-                            </g>
-                        </g>
-                    </svg>
-                </a>
-                <!-- /logo -->
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
-        </div>
-    </div>
-</header>
-
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
 <!--
 End Sticky Navigation
 ==================================== -->
